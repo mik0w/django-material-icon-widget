@@ -8,12 +8,12 @@ class IconPickerWidget(forms.TextInput):
         css = {'all': (
             "https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/css/uikit.min.css",
             'https://fonts.googleapis.com/icon?family=Material+Icons',
-            'widget/css/style.css',)}
+            'icon_picker_widget/css/style.css',)}
         js = ("https://code.jquery.com/jquery-3.4.1.min.js",
               'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js',
               'https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/js/uikit.min.js',
               'https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/js/uikit-icons.min.js',
-              'widget/js/js.js')
+              'icon_picker_widget/js/js.js')
 
     def render(self, name, value, attrs=None, **kwargs):
         super().render(name, value, attrs)
