@@ -12,10 +12,10 @@ setup(
     long_description_content_type="text/markdown",
     author = "Adi Eyal",
     author_email = "adi@openup.org.za",
-    url = "https://github.com/adieyal/dictutils",
-    download_url = "https://github.com/adieyal/dictutils/archive/v0.1.tar.gz",
+    url = "https://github.com/adieyal/dictutils", #<- should be changed
+    download_url = "https://github.com/adieyal/dictutils/archive/v0.1.tar.gz",  #<- should be changed 
     packages=find_packages(),
-    keywords = ["dictionary", "utility"],
+    keywords = ["widget", "utility"],
     #install_requires = [],
     classifiers = [
         "Development Status :: 4 - Beta",
