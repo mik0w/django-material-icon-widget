@@ -4,7 +4,7 @@ with open("README.md", encoding='utf-8') as fp:
     long_description = fp.read()
 
 setup(
-    name="Django Material Icon Widget",
+    name="django-material-icon-widdget",
     version="0.1",
     license="MIT",
     description="Icon Picker for admin panel In Django",
@@ -13,7 +13,7 @@ setup(
     author="Adi Eyal",
     author_email="adi@openup.org.za",
     url="https://github.com/adieyal/django-material-icon-widget",
-    download_url="https://github.com/adieyal/dictutils/archive/v0.1.tar.gz",  #<- should be changed 
+    download_url="https://github.com/adieyal/django-material-icon-widget/archive/v0.1.tar.gz",  #<- should be changed 
     packages=find_packages(),
     keywords=["widget", "utility"],
     classifiers=[
