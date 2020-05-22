@@ -1,7 +1,7 @@
-# Icon Picker Widget   for admin panel
+# Django Material Icon Picker Widget
 
 # How to start:
-Download the module 
+pip install django-material-icons
 
 Include it in the settings (Installed apps):
 ```
@@ -18,7 +18,6 @@ STATICFILES_DIRS = [
     ('icon_picker_widget',os.path.join(BASE_DIR, 'icon_picker_widget/static'))
 ]
 ```
-# Insalattion is done
 
 Example of Usage:
 
@@ -49,6 +48,7 @@ class BlogPostAdmin(admin.ModelAdmin):
 admin.site.register(BlogPost, BlogPostAdmin)
 ```
 
-
+# Acknowledgements
+This widget wraps [npick](https://github.com/dvrg/npick), a no-frills, no-fuss javascript icon picker.
 
 
