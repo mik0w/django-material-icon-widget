@@ -1,4 +1,4 @@
 include README.md
 include LICENSE
-include income_picker_widget/static/css/styles.css
-include income_picker_widget/static/js/npick.js
+include icon_picker_widget/static/icon_picker_widget/css//styles.css
+include icon_picker_widget/static/icon_picker_widget/js/npick.js

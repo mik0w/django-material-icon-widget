@@ -5,7 +5,7 @@ with open("README.md", encoding='utf-8') as fp:
 
 setup(
     name="django-material-icon-widget",
-    version="0.1",
+    version="0.1.1",
     license="MIT",
     description="Icon Picker for admin panel In Django",
     long_description=long_description,
