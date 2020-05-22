@@ -11,7 +11,7 @@ INSTALLED_APPS = [
     'icon_picker_widget', #<---- 
     ...
 ```
-Add static path files of widget:
+Add static path files of widget to settings.py:
 
 ```
 STATICFILES_DIRS = [
