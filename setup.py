@@ -13,7 +13,7 @@ setup(
     author="Adi Eyal",
     author_email="adi@openup.org.za",
     url="https://github.com/adieyal/django-material-icon-widget",
-    download_url="https://github.com/adieyal/django-material-icon-widget/archive/v0.1.tar.gz",  #<- should be changed 
+    download_url="https://github.com/adieyal/django-material-icon-widget/archive/v0.1.1.tar.gz",
     packages=find_packages(),
     keywords=["widget", "utility"],
     include_package_data=True,
