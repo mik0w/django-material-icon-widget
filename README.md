@@ -1,7 +1,7 @@
 # Django Material Icon Picker Widget
 
 # How to start:
-pip install django-material-icon-widget
+`pip install django-material-icon-widget`
 
 Include it in the settings (Installed apps):
 ```
