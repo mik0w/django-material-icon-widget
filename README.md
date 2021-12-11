@@ -1,7 +1,7 @@
 # Django Material Icon Picker Widget
 
 # How to start:
-pip install django-material-icons
+pip install django-material-icon-widget
 
 Include it in the settings (Installed apps):
 ```
@@ -18,6 +18,7 @@ STATICFILES_DIRS = [
     ('icon_picker_widget',os.path.join(BASE_DIR, 'icon_picker_widget/static'))
 ]
 ```
+**WARNING**: If you use Django in version >=3.1, setting the STATICFILES_DIRS would cause an error. It works fine without setting this static path tho. 
 
 Example of Usage:
 
